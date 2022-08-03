@@ -50,7 +50,7 @@ function wdsModals() {
 			thisModalTarget = thisTarget.getAttribute( 'data-target' ),
 			thisModal = document.querySelector( thisModalTarget ),
 			focusableChildren =
-				thisModal.querySelectorAll( 'a, input, button' );
+				thisModal.querySelectorAll( 'a, input, button, .wp-block-button' );
 
 		pageBody.classList.add( 'modal-open' );
 		thisModal.classList.add( 'modal-open' );
